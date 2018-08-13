@@ -1,0 +1,266 @@
+# finalproject
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> All-Star Lyfestyle </title>
+  <link rel="stylesheet" href="navBar.css">
+
+<style>
+* {box-sizing: border-box}
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color:;}
+#Motivation {background-color: gold;}
+#Health {background-color: crimson;}
+#Treatyourself {background-color: tomato;}
+#Mood {background-color: lightcoral;}
+</style>
+</head>
+
+
+
+<body>
+
+  <!-- main nav bar -->
+
+<button class="tablink" onclick="openPage('Home', this, '')" id="defaultOpen">Home</button>
+<button class="tablink" class="btn btn-success" onclick="location.href='motivation.html';">Motivation</button>
+<button class="tablink" onclick="openPage('Health', this, 'crimson')">Health</button>
+<button class="tablink" class="btn btn-success" onclick="location.href='treatyou.html';">Treat Yourself</button>
+<button class="tablink" onclick="openPage('Mood', this, 'lightcoral')">Mood</button>
+
+<div id="Home" class="tabcontent">
+
+<!-- background css -->
+<style>
+  body  {
+    background-image: url("https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=332072f9d176b37db042ab986a829577&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+</style>
+  <center><img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Flowers-PNG/Lotus_Flower_Clipart.png?m=1507172107" alt="flower" height="150" width="200 "></center>
+
+  <center><h1>All-Star Lyfestyle</h1></center>
+  <center><h3>"Be encouraged. Stay on your hustle. You can't fail until you quit"</h3></center>
+
+</div>
+
+
+<div id="Motivation" class="tabcontent">
+
+  <h1>Motivation</h1>
+  <center><h3>"When you want to succeed as bad as you want to breathe, then you'll be successful."</h3></center>
+
+<!-- closes ashely's section -->
+
+</div>
+
+
+<div id="Health" class="tabcontent">
+
+  <h1>Health</h1>
+  <h2>"You are what you eat!"</h2>
+  <center><p> Health is the state of being free from illness or injury. <img src="https://i.giphy.com/media/l41YwqGFjaHVWpXzy/giphy.webp" alt="patrick" width="400" height="350" align="right">There's several ways to get healthy and stay in shape. TAKE CARE OF YOUR BODY!</p></center>
+  <ul>
+
+    <li> Dont Drink Sugar Calories
+    <li> AVOID Processed Junk Food
+    <li> Eat Nuts
+    <li> Get Enough Sleep
+    <li> Drink More Water & Teas
+    <li> Eat Vegatables and Fruits
+    <li> Don't Do Drugs
+    <li> Make Sure You Get Enough Protein
+    <li> Eat a Low Carb Diet
+    <li> Stay Away From Unnatural Fats
+    <li> Eat Vegatables that Grow Above Ground
+
+</ul>
+
+
+  <!-- autumn's content -->
+</div>
+
+<!-- Christina's content -->
+
+<div id="Treatyourself" class="tabcontent">
+
+    <h1>Treat Yourself</h1>
+    <h3>"You can't pour from an empty cup. Take care of yourself first."</h3>
+
+    <!-- put christina's html here -->
+
+</div>
+
+<!-- Nia's Content -->
+<div id="Mood" class="tabcontent">
+
+  <h1>Mood</h1>
+  <h3>"The most important decison you make is to be in a good mood"</h3>
+
+<!-- put Nia's html here -->
+<!-- <a href="#Music">Music</a>
+ <a href="#Movies">Movies</a>
+ <a href="#Books">Books</a> -->
+ <div>
+ <img src="https://www.walldevil.com/wallpapers/a62/cosmos-planets-images-wallpaper-galaxy-wallpoper-art-space.jpg" width="350" height="250" align="center">
+ <img src="https://pbs.twimg.com/profile_images/951655113994760192/vkeQi_sB.jpg" width="300" height=250" align="center">
+ <img src="https://78.media.tumblr.com/97115290c29aece9bafa87fbbaae7b5b/tumblr_p0hdwtpuTs1tmvohpo1_640.gif" width="300" height="250" align="center">
+ <img src="https://i.pinimg.com/736x/01/01/95/01019504cc4ce20fd73260450bac7ed1--lights-neon-neon-light-sign.jpg" width="250" height="250"
+align="center">
+</div>
+
+<h2>Music For All Moods</h2>
+
+<div id="quiz"></div>
+  <button id="submit" class="btn btn-success" onclick="location.href='moodQuiz.html';"> Click Here To Take A Quiz To Determine Your Music Mood! </button>
+  <div id="results"></div>
+
+<div class = "row">
+<div class = "column">
+
+<h2><button class="tablink" class="btn btn-success" onclick="location.href='https://open.spotify.com/user/hawken25/playlist/2HZA14nQnwQKMI2V1nUyTi?si=o_9w6IqKTa-epqq_V811xQ';">Hype</button></h2>
+
+ <ul style="color: #5F1D57;">
+   <li>I Like It - Cardi B
+   <li>Already Won - Kehlani
+   <li>I Like That - Janelle Monae
+   <li>Big Bank - YG, Big Sean, Nicki Minaj, 2 Chainz
+   <li>NBAYOUNGBOAT - Lil Yachty, NBA Youngboy
+   <li>FEFE - Nicki Minaj, 6ix9ine
+   <li>YOSEMITE - Travis Scott
+   <li>Bounce Out With That - YBN Nahmir
+   <li>Bartier Cardi - Cardi B, 21 Savage
+   <li>Chun-Li - Nicki Minaj
+   <li>Powerglide - Rae Sremmurd, Juicy J
+   <li> Nonstop - Drake
+ </ul>
+</div>
+
+<div class = "column">
+<h2> Love </h2>
+ <ul>
+   <li>Drive By - Eric Bellinger
+   <li>Wouldn’t Leave - Kanye West
+   <li>Do U Wrong - Leven Kali, Syd
+   <li>Best Part -  Daniel Caesar, H.E.R
+   <li>Get You - Daniel Caesar, Kali Uchis
+   <li>Love - Kendrick Lamar, Zacari
+   <li>Ivy - Frank Ocean
+   <li>Thinkin Bout You - Frank Ocean
+   <li>Sober - Childish Gambino
+   <li>On My Mind - Jorja Smith, Preditah
+   <li>Cherry - Garrickson, Qole
+   <li>Romeo and Juliet - Trippie Redd
+   <li>Champion - NAV, Travis Scott
+   <li>Boo’d Up - Ella Mai
+ </ul>
+</div>
+
+<div class = "column">
+  <p><font size="5">Melancholy</font></p>
+  <ul>
+    <li>Let My Baby Stay - Amandla Stenberg
+    <li>SAD! - XXXTENTACION
+    <li>Lucid Dreams - Juice WRLD
+    <li>Nikes - Frank Ocean
+    <li>Blem - Drake
+    <li>After Dark - Drake, Static Major, Ty Dolla $ign
+    <li>Stay - Post Malone
+    <li>Dark Red - Steve Lacy
+    <li>Keep Up - Levine Lale
+    <li>Cloudy Skies - Lil Skies
+    <li>Go Gina - SZA
+    <li>Thru Your Phone - Cardi B
+    <li>Nights - Frank Ocean
+    <li>Love Scars - Trippie Redd
+    <li>Paradise - Daniel Caesar
+  </ul>
+
+</div>
+
+<div class = "column">
+  <p><font size="5">Powerful</font></p>
+  <ul>
+    <li>No Scrubs - TLC
+    <li>Bodak Yellow - Cardi B
+    <li>KOD - J Cole
+    <li>DNA - Kendrick Lamar
+    <li>After You - Tay-K
+    <li>Sorry - Beyonce
+    <li>This is America - Childish Gambino
+    <li>SKELETONS - Travis Scott
+    <li>Bounce Back - Kodie Shane
+    <li>Stop Trying to be God - Travis Scott
+    <li>DNA - Kendrick Lamar
+    <li>Loyalty - Kendrick Lamar, Rihanna
+    <li>Up - Nav
+    <li>Alright - Kendrick Lamar
+    <li> Get Up 10 - Cardi B
+    <li>Pills and Potions - Nicki Minaj
+  </ul>
+</div>
+
+<script src="moodList.js"></script>
+
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<!-- ashley's javascript -->
+
+
+
+</body>
+</html>
