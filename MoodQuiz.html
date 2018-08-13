@@ -1,0 +1,125 @@
+<html>
+<head>
+<link rel="stylesheet" href= "moodQuiz.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+.btn {
+    background-color: #ff9999;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: #900C3F;
+}
+</style>
+</head>
+
+<body>
+
+  <button class="btn" class="btn btn-success" onclick="location.href='final3.html';"><i class="fa fa-home"></i> Home</button>
+
+<div id="wrapper">
+  <h2>What music are you in the mood for?</h2>
+  <p>Take this to find out!</p>
+
+  <form id="quiz">
+    <!-- Question 1 -->
+    <h3>Do you feel relaxed?</h3>
+    <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+    <!-- The value is which answer the choice corresponds to. -->
+    <label><input type="radio" name="q1" value="c1">
+      Yes
+    </label><br />
+    <label><input type="radio" name="q1" value="c2">
+      No
+    </label><br />
+    <label><input type="radio" name="q1" value="c3">
+      Somewhat
+    </label><br />
+
+
+    <!-- Question 2 -->
+    <h3> Do you feel like you can rule the world? </h3>
+    <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+    <label><input type="radio" name="q2" value="c1">
+       Of Course
+    </label><br />
+    <label><input type="radio" name="q2" value="c2">
+      Eh no not really
+    </label><br />
+    <label><input type="radio" name="q2" value="c3">
+      Depends
+    </label><br />
+
+
+
+    <!-- Question 3 -->
+    <h3>Are you crushing?</h3>
+    <!-- Choices for the third question -->
+    <label><input type="radio" name="q3" value="c1">
+      YES YES THEY'RE SO CUTE
+    </label><br />
+    <label><input type="radio" name="q3" value="c2">
+      No I don't have time for that.
+    </label><br />
+    <label><input type="radio" name="q3" value="c3">
+      Eh I guess
+    </label><br />
+
+
+    <!-- Question 4 -->
+    <h3>What is your style?</h3>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q4" value="c1">
+      Girly
+    </label><br />
+    <label><input type="radio" name="q4" value="c2">
+      Tomboy
+    </label><br />
+    <label><input type="radio" name="q4" value="c3">
+      Emo
+    </label><br />
+    <label><input type="radio" name="q5" value="c4">
+      None of the above
+    </label><br />
+
+
+    <h3>Are you social?</h3>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q5" value="c1">
+      Yes for the most part
+    </label><br />
+    <label><input type="radio" name="q5" value="c2">
+      No I'm very anti-social
+    </label><br />
+    <label><input type="radio" name="q5" value="c3">
+      Sometimes but I like to be alone
+    </label><br />
+
+
+    <button type="button" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+    <!-- <button type="reset" id="reset" onclick="resetAnswer()">Reset</button> -->
+
+  </form>
+
+
+  <div id="answer">Look here for your result! </div>
+
+</div>
+
+<script src="moodQuiz.js"></script>
+
+
+</body>
+
+</html>
