@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+.row:after, .row:before {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+
+}

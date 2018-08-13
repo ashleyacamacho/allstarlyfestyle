@@ -1,0 +1,41 @@
+/* body, html {
+  height: 100%;
+} */
+
+/* .bg {
+  background-image: url("https://media1.popsugar-assets.com/files/thumbor/ZTI8fUbZ9JROTG4gPUUDVqkkZx4/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/05/21/960/n/1922729/1f1b9b0e5b0342252c3a63.31096557_/i/Self-Care-Quotes.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+} */
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+#skin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+
+  background-color: tomato;
+}
